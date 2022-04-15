@@ -16,4 +16,6 @@ CREATE TABLE students (
 
 -- Create the rest of the tables
 
-
+Create Table teachers (id Integer Primary Key autoincrement, first_name TEXT, last_name TEXT, bio TEXT);
+Create Table courses (id Integer Primary Key autoincrement, name TEXT, description TEXT);
+Create Table sections (id Integer Primary Key autoincrement, time TEXT, course_id TEXT, teacher_id TEXT);
