@@ -16,3 +16,4 @@ Create Table posts (id Integer Primary Key autoincrement, image_file TEXT, creat
 Create Table likes (id Integer Primary Key autoincrement, user_id INTEGER, post_id INTEGER);
 Create Table comments (id Integer Primary Key autoincrement, user_id INTEGER, post_id INTEGER, body TEXT);
 Create Table followers (id Integer Primary Key autoincrement, follower_user_id INTEGER, followed_user_id INTEGER);
+Check answers and actual implementation, as this isn't correct 
